@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+#app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  user-select: none;
+  cursor: none;
+}
+
+#app > .date-text {
+  font-size: 5vh;
+}
+
+#app > .time-text {
+  font-size: 30vh;
+}
+
+#app > .time-text > .seconds-text {
+  font-size: 10vh;
+}
